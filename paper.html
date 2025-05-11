@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newspaper Advertising Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-6">
+    <div class="container mx-auto text-center">
+      <img src="paper logo png.png" alt="Newspaper Advertising Agency Logo" class="mx-auto mb-4 w-32 h-auto">
+      <h1 class="text-3xl font-bold">Newspaper Advertising Agency</h1>
+      <p class="text-lg">Connecting Ads to Every Corner of Karnataka</p>
+      <a href="#contact" class="mt-4 inline-block bg-yellow-400 text-black px-6 py-2 rounded hover:bg-yellow-300">Request an Ad</a>
+    </div>
+  </header>
+
+  <!-- About Us -->
+  <section id="about" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold mb-4">About Us</h2>
+      <p class="mb-2">I am Suresh A.S., an experienced media agent working with all major newspapers across Karnataka.</p>
+      <p>Our mission is to connect advertisers and publishers seamlessly, ensuring maximum reach with minimal effort.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold text-center mb-6">Services</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold mb-2">Ad Placement</h3>
+          <p>We place ads in state, district, and local newspapers across Karnataka.</p>
+          <a href="#contact" class="text-blue-600 mt-2 inline-block">Request Now</a>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold mb-2">Ad Design</h3>
+          <p>Custom ad creation based on brief input from you.</p>
+          <a href="#contact" class="text-blue-600 mt-2 inline-block">Request Now</a>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold mb-2">News Submission</h3>
+          <p>We help submit press releases and news items to publishers.</p>
+          <a href="#contact" class="text-blue-600 mt-2 inline-block">Request Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newspapers Covered -->
+  <section id="papers" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold mb-6">Newspapers Covered</h2>
+      <p>We work with leading newspapers like Prajavani, Vijay Karnataka,Vijayavani, Udayavani, and many more.</p>
+    </div>
+  </section>
+
+  <!-- Ad Samples -->
+  <section id="samples" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold mb-6">Ad Samples</h2>
+      <p>Explore examples of our work: Business, Real Estate, Public Notices, Obituaries,Change of Name etc.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold mb-6">Client Testimonials</h2>
+      <p>“Fast and reliable service. Got our ad published the same day!” – Client</p>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold text-center mb-6">Contact Us</h2>
+      <form class="max-w-xl mx-auto space-y-4" action="https://formspree.io/f/mdkglkqo" method="POST">
+        <input class="w-full p-3 border rounded" type="text" name="name" placeholder="Name" required />
+        <input class="w-full p-3 border rounded" type="tel" name="phone" placeholder="Phone" required />
+        <input class="w-full p-3 border rounded" type="text" name="ad_type" placeholder="Ad Type" />
+        <input class="w-full p-3 border rounded" type="text" name="preferred_newspaper" placeholder="Preferred Newspaper" />
+        <input class="w-full p-3 border rounded" type="text" name="city" placeholder="City" />
+        <textarea class="w-full p-3 border rounded" name="message" placeholder="Message"></textarea>
+        <button type="submit" class="w-full bg-blue-900 text-white p-3 rounded">Send</button>
+      </form>
+      <div class="text-center mt-6">
+        <a href="https://wa.me/9844333089" class="text-green-600">Chat on WhatsApp</a>
+      </div>
+      <div class="text-center mt-6">
+        <p class="text-gray-800">Contact via Number: <span class="font-semibold">9844333089</span></p>
+        <button onclick="navigator.clipboard.writeText('9844333089')" class="mt-2 bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">Copy Number</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center p-4">
+    <p>&copy; 2025 Newspaper Advertising Agency. All rights reserved.</p>
+  </footer>
+</body>
+</html>
